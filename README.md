@@ -23,5 +23,5 @@ You may also see any lint errors in the console.
 
 ### Deployment
 
-The Project is Hosted Live: [here on Netlify](https://facebook.github.io/create-react-app/docs/deployment)
+The Project is Hosted Live: [here on Netlify](https://bucolic-druid-38079b.netlify.app/)
 
