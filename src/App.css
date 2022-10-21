@@ -22,13 +22,45 @@
     height: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 h3 {
-    display: block;
+    font-size: 1.5rem;
 }
+
 #profile_img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
 
+}
+
+.footer {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+.social-icon {
+    margin-right: 10px;
+    color: rgb(204, 137, 35);
+}
+.social-icon:last-child {
+    color: rgb(10, 10, 10);
+
+}
+
+@media (max-width : 500px) {
+    .home {
+        width: 90%;
+    }
+    #profile_img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    
+    }
+    h3 {
+        font-size: 1rem;
+    }
 }
