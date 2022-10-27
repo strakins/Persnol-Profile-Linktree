@@ -17,11 +17,23 @@ body {
     align-items: center;
 }
 .home {
-    width: 80%;
+    width: 90%;
+}
+.share-button {
+    position: absolute;
+    top: 10px;
+    margin: 5px;
+    right: 4em;
+    border: 1px dotted #D0D5DD;
+    padding: 10px;
+    border-radius: 100%;
+}
+.share-button-device {
+    display: none;
 }
 .header {
     text-align: center;
-    margin: 20px;
+    margin: 30px;
     padding-bottom: 1.5rem;
 }
 .header0 {
@@ -33,7 +45,9 @@ body {
 h3 {
     font-size: 1.5rem;
 }
-
+.show {
+    display: block;
+}
 #profile_img {
     height: 100px;
     width: 100px;
@@ -80,7 +94,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-@media (max-width : 500px) {
+@media (max-width : 600px) {
     .home {
         width: 90%;
     }
@@ -102,5 +116,18 @@ h3 {
         margin-top: 0.5rem;
         height: 15px;
         width: 70px;
+    }
+    .share-button {
+        display: none;
+    }
+    .share-button-device {
+        display: block;
+        position: absolute;
+        top: 10px;
+        margin: 5px;
+        right: 4em;
+        border: 1px dotted #D0D5DD;
+        padding: 12px 6px;
+        border-radius: 50%;
     }
 }
