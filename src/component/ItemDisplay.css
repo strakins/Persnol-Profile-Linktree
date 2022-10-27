@@ -1,4 +1,5 @@
 #list-item {
+    width: 90%;
     padding: 10px;
     border: 0;
     background: rgb(185, 181, 181);
@@ -9,4 +10,9 @@
 a {
     text-decoration: none;
     color: black;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+#hidden {
+    display: none;
 }
