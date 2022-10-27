@@ -7,12 +7,21 @@
     text-align: center;
     margin: 10px;
 }
+#list-item:hover {
+    border: 2px solid brown;
+}
 a {
     text-decoration: none;
     color: black;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 600;
 }
+.span-text {
+    display: block;
+    font-size: 0.8rem;
+    color: rgb(3, 40, 250);
+    margin-top: 0.5rem;
+} 
 #hidden {
     display: none;
 }
