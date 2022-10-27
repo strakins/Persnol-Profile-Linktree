@@ -72,11 +72,11 @@ h3 {
     margin-top: 3rem;
     margin-bottom: 0.7rem;
 }
+
 .footerbase {
     display: flex;
     justify-content: space-between;
 }
-
 
 @media (max-width : 500px) {
     .home {
@@ -90,5 +90,15 @@ h3 {
     }
     h3 {
         font-size: 1rem;
+    }
+    .footerbase {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-icon {
+        margin-top: 0.5rem;
+        height: 15px;
+        width: 70px;
     }
 }
